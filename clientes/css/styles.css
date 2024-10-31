@@ -1,0 +1,72 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+h1, h2 {
+    color: #444;
+}
+form {
+    margin-bottom: 25px;
+}
+
+input[type="text"],input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"], button, .button {
+    background-color: #5a9bd4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover, .button:hover {
+    background-color: #4a8bcf;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+th, td {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    background-color: #5a9bd4;
+    color: white;
+}
+
+tr:hover {
+    background-color: #e8f4fc;
+}
+.actions {
+    display: flex;
+    gap: 15px;
+}
+
+#formularioEdicion {
+    background-color: #f1f1f1;
+    padding: 25px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
