@@ -18,13 +18,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrar Nuevo Cliente</title>
+    <title>Registrar Nuevo Producto</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <div class="container">
-        <h1>Registrar Nuevo Cliente</h1>
+        <h1>Registrar Nuevo Producto</h1>
         <?php if (isset($error)): ?>
             <div class="error"><?php echo $error; ?></div>
         <?php endif; ?>
@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <input type="text" name="categoria">
             </label><br><br>
 
-            <input type="submit" value="Registrar Cliente">
+            <input type="submit" value="Registrar Producto">
 
             <button><a href="index.php">Volver</button>
             </a>
