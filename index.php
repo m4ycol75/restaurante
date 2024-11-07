@@ -6,6 +6,7 @@
     <title>Resterante</title>
 </head>
 <body>
-    
+    <a href="clientes/index.php">Clientes</a>
+    <a href="productos/index.php">Productos</a>
 </body>
 </html>
